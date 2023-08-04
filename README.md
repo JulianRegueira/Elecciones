@@ -11,7 +11,7 @@ Esta realizado con Django y unos retoques visuales de CSS, sacando provecho de e
 
 Como segundo paso se creó una funcion para llamarla al hacer click en la imagen y que simplemente sume un contador en la cantidad de votos del candidato seleccionado, realizando esos dos simples pasos y con algunos aportes visuales, se logró desarrollar el proyecto.
 
-![elecciones](https://github.com/JulianRegueira/Elecciones/assets/130511226/448c78f8-330f-4aa1-bf6c-7b1e74282b95)
+![elecciones](https://github.com/JulianRegueira/Elecciones/assets/130511226/5157477c-39f2-406d-819a-822f4e155e39)
 
 ## Estructura del Repositorio
 - **Elecciones**: Contiene el proyecto, dentro de el creamos una app para trabajar sobre los candidatos de manera mas ordenada.
