@@ -1,0 +1,63 @@
+.main {
+    display: flex;
+    width: 600px;
+    height: 430px;
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+section a img {
+    width: 350px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section a img:hover {
+    cursor: pointer;
+    width: 440px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#conteiner_gracias {
+    margin-top: 7%;
+    background-color: white;
+    position: absolute;
+    top:15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+body {
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards;
+    background-image: url("https://fondosmil.com/fondo/12791.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@keyframes fade-in {
+    to {
+      opacity: 1;
+    }
+}
+
+#titulo_candidatos {
+    font-size: 50px;
+}

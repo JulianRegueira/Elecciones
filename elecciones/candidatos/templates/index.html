@@ -1,0 +1,24 @@
+{% load static %}
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Elecciones 2023</title>
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+    <link rel="icon" href="{% static 'img/Icon.png' %}">
+</head>
+<body>
+
+<h1 id="titulo_candidatos">Listado de Candidatos</h1>
+
+    <section class="main">
+        {% for candidato in candidatos %}
+            
+                <a href="{% url 'candidatos:votar' candidato.id_candidato %}">
+                    <img src="{{ candidato.img_candidato.url }}" alt="Imagen del candidato"><br>
+                </a>
+            
+        {% endfor %}
+    </section>
+</body>
+</html>

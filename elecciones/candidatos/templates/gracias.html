@@ -1,0 +1,24 @@
+{% load static %}
+<!-- gracias.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gracias por Votar</title>
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+    <link rel="icon" href="{% static 'img/Icon.png' %}">
+</head>
+<body>
+    <div id="conteiner_gracias">
+        <h1>Gracias por Votar</h1>
+        <p>¡Gracias por participar en nuestra votación!</p>
+    </div>
+
+
+    <script>
+        setTimeout(function() {
+            window.location.href = "{% url 'candidatos:index' %}";
+        }, 2000);
+    </script>
+
+</body>
+</html>
