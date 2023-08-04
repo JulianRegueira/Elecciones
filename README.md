@@ -14,7 +14,7 @@ Como segundo paso se creó una funcion para llamarla al hacer click en la imagen
 ![Demostración](https://github.com/JulianRegueira/Elecciones/assets/130511226/3541944b-177a-43d6-b224-ec8d3db7b89b)
 
 ## Estructura del Repositorio
-- **elecciones**: Contiene el proyecto, dentro de el creamos una app para trabajar sobre los candidatos de manera mas ordenada.
+- **Elecciones**: Contiene el proyecto, dentro de el creamos una app para trabajar sobre los candidatos de manera mas ordenada.
 - **README.md**: Explicacion del mismo.
 
 ## Herramientas utilizadas en el Proyecto
