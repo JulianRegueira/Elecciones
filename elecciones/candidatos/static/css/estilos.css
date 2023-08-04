@@ -48,8 +48,9 @@ body {
     opacity: 0;
     animation: fade-in 2s ease-in-out forwards;
     background-image: url("https://fondosmil.com/fondo/12791.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 @keyframes fade-in {
